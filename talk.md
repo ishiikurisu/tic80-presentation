@@ -50,3 +50,111 @@ Right now I'm only talking about random stuff. This is a really
 bad introduction to the topic right now.
 -->
 
+
+
+# Metadiscussion
+
+Maybe I should do it like this?
+
+- [x] ~~Outline talk structure~~
+- [x] ~~Write paragraphs as required~~
+
+## Talk Structure
+
+What points I want to make?
+- fantasy consoles are cool
+  - why? they look retro, they have a lot of history packed into them
+  - unexpected cool stuff: different and novel dev environment
+- fantasy consoles are an interesting challenge if you want to push it to
+  its extreme
+- small is cool too
+  - too big and it's hard to focus on what really matters
+
+
+# Talk, 2nd try
+
+This is probably the least appropriate place to talk about this, but hear 
+me out. Fantasy consoles are cool. Their own existence is an exercise in 
+both absurdity and creativity.
+
+If you don't know what it is, a fantasy console is like an emulator. If 
+you don't know about it, an emulator is a computer program that simulates 
+the hardware of another. This is one of the many forms of virtualization, 
+a technology most of us (people who work with software) deal with 
+everyday; an example being Docker. Using virtualization or emulators allow 
+developers to write code for a single architecture and deliver the same 
+code everywhere given the architecture can be sucessfully virtualized. 
+This introduces a useful layer of abstraction for software development. 
+The thing for this talk though is that fantasy consoles flip this 
+usefulness on its head: what if we invent an architecture? What if this 
+architecture doesn't really exist? In other words: if one could invent any 
+computer they would like, how would one do that? Fantasy consoles are 
+"emulators" for computers that do not necessarily exist but that allow for 
+a certain set of experiences. And these experiences are the focus of 
+today's talk.
+
+Today, we are focusing on TIC-80, an open source fantasy console. It's 
+designed to have this small screen resolution; a limited colour palette; 
+limited sound; not many sprites; and some other limitations so it 
+everything on it looks retro. However, its development cycle and tooling 
+are nothing close to retro: it can be programmed in a variety of languages 
+(from LISP and WASM to Lua and Javascript); its programs can be download 
+from the internet without too much of a hassle; and it already includes 
+many of the software development apparatus with it. For those who are 
+already familiar with it, it's similar to the PICO-8 (any Celeste players 
+out there?) but with the benefit of being open source. 
+
+A TIC-80 game plays out a bit like this...
+
+Now, the question is: why would someone do that? Aside from the previously 
+mentioned "write once, ship everywhere" benefit, this kind of environment 
+was made with a particular experience in mind, and to understand it, we 
+have to look it from a particular perspective. You see, musicians often 
+say that limitations breed creativity. In other words, if you want to 
+solve a problem and you are restrained on how you can solve it, chances 
+are you are going to be creative in some way. You have to put your mind 
+around the problem, think about it in different ways, and come up with a 
+solution that's novel and unique. This perspective is particularly 
+interesting if we try to see from the other end of the spectrum: if we can 
+solve a problem with any solution (if there aren't limitations to the 
+solution), we will certainly come up with something that's not really 
+cohesive, or something that's not really a solution to the *particular* 
+problem we have, or we might not even solve the problem since we might get 
+stuck in the planning phase. Being limited solves this by letting you 
+focus on a single problem and make the best use of what you have right 
+now. That's why the TIC-80 is so popular with the demoscene, for example. 
+(Maybe include a demo here?)
+
+TIC-80's selling point is that its limitations were carefully thought out 
+so it looks retro but it's not completely retro. If you have coded for a 
+computer in the 80s or 90s, you know it wasn't easy. TIC-80 has made the 
+development part simple enough so it's nearly too comfortable. This kind 
+of cosy environment reminds of the concept of "Hygge", a danish word 
+that's hard to translate but very easy to feel. If this words sounds like 
+the english word "hugging", it's because this is the feeling we are 
+looking for.
+
+These limitations combined with this cosiness invite the developer and the 
+player to a basic mindset. Basic in the sense of "back to basics". Basic 
+in the sense of "what is the most essential thing here? What should I 
+focus on?" This is a kind of minimalism that's hard to come by but that 
+provides a mental framework that lets you think about what you really need 
+in your game and make it work properly.
+
+If this is something that interests you, I recommend visiting TIC-80's 
+Github repository if you want to get started coding; or the TIC-80's 
+website if you want to check what creations people have been coming up 
+with using these limitations.
+
+That's all for today!
+
+
+## Topics for Presentation
+
+- Introduction (from virtualisation to Docker and back to virtualisation)
+- TIC-80
+- (TIC-80 game?)
+- Limitations breed creativity
+- Cosy environments foster cosy memories (Hygge?)
+- Back to basics
+- Conclusion
